@@ -13,9 +13,10 @@ const firebaseConfig = {
   storageBucket: "whisk-wish.firebasestorage.app",
   messagingSenderId: "204285536617",
   appId: "1:204285536617:web:9838b61ced5f6b058a75f8",
-  measurementId: "G-EPD10S0Q17"
+  measurementId: "G-EPD10S0Q17",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+// eslint-disable-next-line no-unused-vars
 const analytics = getAnalytics(app);
